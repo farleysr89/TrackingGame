@@ -35,19 +35,10 @@ namespace Mission003
                 regions.Add(region);
             }
 
-            int max = 0;
-            Region maxR = null;
             foreach(Region r in regions)
             {
-                if(r.highestDiff() > max)
-                {
-                    max = r.highestDiff();
-                    maxR = r;
-                }
+                r.highestDiff();               
             }
-            Console.WriteLine("Max = " + max + " RegionID = " + maxR.regionID);
-            // regionID is 9SECC9, needs to be converted?
-
         }
     }
 }
@@ -64,15 +55,17 @@ class Region
         bool first = true;
         foreach(Reading r in readings)
         {
+            int s = r.maxWater();
             if (first)
             {
-                prev = r.findWater();
+                prev = s;
                 first = false;
             }
             else
             {
-                int curr = r.findWater();
+                int curr = s;
                 if (Math.Abs(curr - prev) > max) max = Math.Abs(curr - prev);
+                if (Math.Abs(curr - prev) > 1000) Console.WriteLine("regionID = " + regionID + " date = " + r.date + " readingID = " + r.readingID);
                 prev = curr;
             }
         }
@@ -130,5 +123,41 @@ class Reading
         }
 
         return result;
+    }
+
+    // Function from https://www.geeksforgeeks.org/trapping-rain-water/
+    // Gets different answer from above, something to look into
+    public int maxWater()
+    {
+        int[] arr = reading;
+        int n = arr.Length;
+
+        // To store the maximum water
+        // that can be stored
+        int res = 0;
+
+        // For every element of the array
+        // except first and last element
+        for (int i = 1; i < n - 1; i++)
+        {
+
+            // Find maximum element on its left
+            int left = arr[i];
+            for (int j = 0; j < i; j++)
+            {
+                left = Math.Max(left, arr[j]);
+            }
+
+            // Find maximum element on its right
+            int right = arr[i];
+            for (int j = i + 1; j < n; j++)
+            {
+                right = Math.Max(right, arr[j]);
+            }
+
+            // Update maximum water value
+            res += Math.Min(left, right) - arr[i];
+        }
+        return res;
     }
 }
