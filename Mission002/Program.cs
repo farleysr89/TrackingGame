@@ -68,7 +68,7 @@ namespace Mission002
             Console.WriteLine(ConvertHex(maxR.id));
         }
 
-        // Method from StackOverflow: https://stackoverflow.com/questions/5613279/c-sharp-hex-to-ascii
+        // Function from StackOverflow: https://stackoverflow.com/questions/5613279/c-sharp-hex-to-ascii
         public static string ConvertHex(string hexString)
         {
             try
