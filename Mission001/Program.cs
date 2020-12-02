@@ -21,6 +21,7 @@ namespace TrackingGame
             }
         }
 
+        // Function from here: https://www.geeksforgeeks.org/determine-string-unique-characters/
         static bool uniqueCharacters(String str)
         {
             char[] chArray = str.ToCharArray();

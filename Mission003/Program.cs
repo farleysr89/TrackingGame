@@ -35,6 +35,18 @@ namespace Mission003
                 regions.Add(region);
             }
 
+            int max = 0;
+            Region maxR = null;
+            foreach(Region r in regions)
+            {
+                if(r.highestDiff() > max)
+                {
+                    max = r.highestDiff();
+                    maxR = r;
+                }
+            }
+            Console.WriteLine("Max = " + max + " RegionID = " + maxR.regionID);
+            // regionID is 9SECC9, needs to be converted?
 
         }
     }
@@ -44,6 +56,29 @@ class Region
 {
     public string regionID;
     public List<Reading> readings;
+
+    public int highestDiff()
+    {
+        int max = 0;
+        int prev = 0;
+        bool first = true;
+        foreach(Reading r in readings)
+        {
+            if (first)
+            {
+                prev = r.findWater();
+                first = false;
+            }
+            else
+            {
+                int curr = r.findWater();
+                if (Math.Abs(curr - prev) > max) max = Math.Abs(curr - prev);
+                prev = curr;
+            }
+        }
+
+        return max;
+    }
 }
 
 class Reading
