@@ -1,0 +1,16 @@
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Mission003.exe
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.csprojAssemblyReference.cache
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.AssemblyInfoInputs.cache
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.AssemblyInfo.cs
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Input.txt
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Mission003.deps.json
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Mission003.runtimeconfig.json
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Mission003.runtimeconfig.dev.json
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Mission003.dll
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Mission003.pdb
+C:\git\TrackingGame\Mission003\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.csproj.CoreCompileInputs.cache
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.csproj.CopyComplete
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.dll
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.pdb
+C:\git\TrackingGame\Mission003\obj\Debug\netcoreapp3.1\Mission003.genruntimeconfig.cache
