@@ -1,0 +1,13 @@
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Mission001.exe
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Mission001.deps.json
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Mission001.runtimeconfig.json
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Mission001.runtimeconfig.dev.json
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Mission001.dll
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Mission001.pdb
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\obj\Debug\netcoreapp3.1\Mission001.AssemblyInfoInputs.cache
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\obj\Debug\netcoreapp3.1\Mission001.AssemblyInfo.cs
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\obj\Debug\netcoreapp3.1\Mission001.csproj.CoreCompileInputs.cache
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\obj\Debug\netcoreapp3.1\Mission001.dll
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\obj\Debug\netcoreapp3.1\Mission001.pdb
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\obj\Debug\netcoreapp3.1\Mission001.genruntimeconfig.cache
+C:\Users\srfarley\source\repos\TrackingGame\TrackingGame\bin\Debug\netcoreapp3.1\Input.txt

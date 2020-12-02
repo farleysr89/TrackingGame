@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PEOETf8rjFVBDxb+1yIYnpfQwEQXsbqSB84dSeMMRKVnp6vv3e2PXd079nxaDQpoEX3wyRWY1zXLjc5n+Zbaug==",
+  "success": true,
+  "projectFilePath": "C:\\git\\TrackingGame\\Mission002\\Mission002.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srfarley\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
