@@ -25,13 +25,13 @@ namespace Mission002
             List<Day> days = new List<Day>();
             foreach(JObject o in j)
             {
-                Day day = new Day { date = (string)o.GetValue("date") };
-                var readings = o.GetValue("readings");
+                Day day = new Day { date = (string)o["date"] };
+                var readings = o["readings"];
                 List<Reading> readings1 = new List<Reading>();
                 foreach(JObject r in readings)
                 {
-                    Reading reading = new Reading { id = (string)r.GetValue("id"), time = (int)r.GetValue("time") };
-                    var contam = r.GetValue("contaminants");
+                    Reading reading = new Reading { id = (string)r["id"], time = (int)r["time"] };
+                    var contam = r["contaminants"];
                     List<Contaminant> contams = new List<Contaminant>();
                     foreach(JProperty c in contam)
                     {
