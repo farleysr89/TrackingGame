@@ -33,7 +33,6 @@ namespace Mission003
                 region.readings = readings;
                 regions.Add(region);
             }
-            Console.WriteLine("Hello World!");
         }
     }
 }
